@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper {
+  display: block;
+  background: gray;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background: repeat url(../images/t-bg.png);
+}
+
+.nav-wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link a {
+  line-height: 48px;
+  margin: auto 10px;
+}
+
+.nav-link a:hover {
+  color: #8a9d54;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
