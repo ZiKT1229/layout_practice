@@ -5,27 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Layout</title>
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="body-wrapper">
     <nav>
       <div class="nav-wrapper">
-        <header>
+        <header class="logo-wrapper">
           <a class="logo" href=""><img src="./images/logo.png" alt=""></a>
         </header>
-        <ul class="nav-link">
-          <li><a href="">About</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
+        <ul class="link-wrapper">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <main>
-      <article id="" class=""></article>
-      <article id="" class=""></article>
-      <article id="" class=""></article>
+    <main style="display: none">
+      <article id="about" class="main-wrapper">
+        <section class="content-wrapper">
+          <h2>
+            <span>About</span>
+            <hr class="bar">
+          </h2>
+          <section class="text-wrapper">
+            <img src="./images/art/n7.jpg" alt="">
+            <figure style="width: 400px;">
+              <h3>Mattis Bibendum Ullamcorper Cursus Tellus</h3>
+              <p>Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus</p>
+            </figure>
+            <figure>
+              <h3>Dolor Mollis Justo Nullam</h3>
+              <p>Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur vestibulum.</p>
+              <ul>
+                <li>Duis mollis est non commodo luctus.</li>
+                <li>Nisi erat porttitor ligula, eget lacinia odio sem nec elit.</li>
+              </ul>
+            </figure>
+            <figure>
+              <h3>Porta Bibendum Cursus Malesuada</h3>
+              <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+              <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </figure>
+          </section>
+        </section>
+        <footer>© 2011 Matchbook. All Rights Reserved.</footer>
+      </article>
+      <article id="portfolio" class="main-wrapper hide"></article>
+      <article id="contact" class="main-wrapper hide"></article>
     </main>
   </div>
 </body>
