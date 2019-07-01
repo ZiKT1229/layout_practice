@@ -122,6 +122,9 @@ article {
 
 .text-wrapper {
   height: 90%;
+}
+
+.of {
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -157,5 +160,5 @@ article {
 footer {
   margin-top: 20px;
   font-size: .75rem;
-  color: #dfdfdf;
+  color: #222222;
 }
